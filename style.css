@@ -1,0 +1,71 @@
+body {
+  background-color: #87CEEB; /* blue background */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.flag-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.flag {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+#flag1 {
+  top: 0;
+  left: 0;
+}
+
+#flag2 {
+  top: 0;
+  right: 0;
+  transform: rotate(90deg);
+}
+
+#flag3 {
+  bottom: 0;
+  left: 0;
+  transform: rotate(-90deg);
+}
+
+#flag4 {
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+#title {
+  font-size: 48px;
+  text-align: center;
+}
+
+.poem-container {
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.scrolling-poem {
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
