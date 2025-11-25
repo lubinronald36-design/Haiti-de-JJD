@@ -1,4 +1,11 @@
 body {
+    margin: 0;
+    background-image: linear-gradient(to bottom, #87CEEB, #4682B4);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #333; /* Change text color to a darker shade for better readability */
+}
+body {
   background-color: #87CEEB; /* blue background */
   font-family: Arial, sans-serif;
 }
