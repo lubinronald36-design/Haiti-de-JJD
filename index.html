@@ -1,4 +1,5 @@
-.<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,11 +13,7 @@
             font-family: Arial, sans-serif;
             color: white;
         }
-
-        .content {
-            padding: 20px;
-        }
-
+        
         .top-bar {
             background-color: #ffd700; /* yellow */
             padding: 10px;
@@ -24,35 +21,45 @@
             align-items: center;
             justify-content: space-between;
         }
-
+        
         .top-bar-icons {
             display: flex;
             gap: 10px;
         }
-
+        
         .search-bar {
             padding: 10px;
             background-color: rgba(255, 255, 255, 0.2);
             border-bottom: 1px solid white;
         }
-
+        
         .main-content {
             padding: 20px;
             text-shadow: 1px 1px 2px black;
         }
-
+        
         .url-link {
             font-size: 14px;
             color: white;
             text-decoration: underline;
         }
-
+        
         .poem {
             margin-bottom: 20px;
         }
-
+        
         .video-container {
             margin-top: 20px;
+            position: relative;
+            padding-bottom: 56.25%;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
@@ -86,8 +93,9 @@
             Je vis une expérience, avec une passion en folie</p>
         </div>
         <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZbZSe6N_BXs?si=1LW59BGT4mz0RwUi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/ZbZSe6N_BXs?si=1LW59BGT4mz0RwUi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+        <p>Contact: <a href="https://wa.me/50935737556">Whatsapp 50935737556</a></p>
     </div>
 </body>
 </html>
